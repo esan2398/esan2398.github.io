@@ -1,25 +1,30 @@
-import logo from './Eddie.jpg';
+import { BrowserRouter as Router, Routes, Route, NavLink as Link, BrowserRouter } from 'react-router-dom';
 import './App.css';
+import Home from './components/Home'
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          My name is Eddie and I'm going to master React!
-        </p>
-        <a
-          className="App-link"
-          href="https://github.com/esan2398"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Check Me Out!
-        </a>
-      </header>
-    </div>
-  );
-}
+    <div>
+      <nav>
+        <ul>
+          <li>
+            <Link to="/" activeClassName="active">Home</Link>
+          </li>
+          <li>
+          <Link to="works" activeClassName="active">Works</Link>
+          </li>
+          <li>
+          <Link to="about" activeClassName="active">About</Link>
+          </li>
+          <li>
+          <Link to="contact" activeClassName="active">Contact Me!</Link>
+          </li>
+        </ul>
+      </nav>
+      <Routes>
+        <Route path="/" element={<Home/>} />
+      </Routes>
 
-export default App;
+    </div>
+  )
+}
