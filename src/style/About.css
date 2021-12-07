@@ -1,0 +1,16 @@
+h1.about{
+    display: flex;
+    justify-Content:center;
+    align-Items:center;
+    height: 25vh;
+}
+
+h3.about{
+    display: flex;
+    justify-Content:center;
+    align-Items:center;
+    height: 30vh;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+}

@@ -1,6 +1,10 @@
 import { BrowserRouter as Router, Routes, Route, NavLink as Link, BrowserRouter } from 'react-router-dom';
 import './App.css';
 import Home from './components/Home'
+import About from './components/About'
+import Contact from './components/Contact'
+import Works from './components/Works'
+
 
 export default function App() {
   return (
@@ -23,6 +27,9 @@ export default function App() {
       </nav>
       <Routes>
         <Route path="/" element={<Home/>} />
+        <Route path="works" element={<Works/>} />
+        <Route path="about" element={<About/>} />
+        <Route path="contact" element={<Contact/>} />
       </Routes>
 
     </div>
