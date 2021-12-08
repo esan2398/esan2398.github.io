@@ -41,6 +41,7 @@ class Contact extends Component {
   
     handleSubmit = event =>{
         event.preventDefault();
+        alert('Thank you ' + this.state.name + '!\nYour mesage sent successfully!')
     }
   }
   

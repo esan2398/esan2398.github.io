@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(84, 152, 155);
+  background-color: rgb(45, 38, 68);
 }
 
 code {
@@ -20,16 +20,20 @@ nav ul {
   padding: 0,0,0,0;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
   max-width: 390px;
+  
 }
 
 nav a {
   text-decoration: none;
   display: inline-block;
   padding: 1rem;
+  background-color: rgb(255, 255, 255);
 }
 .main {
   padding: 1rem;
+  position: fixed;
 }
 nav a.active {
-  background-color: rgb(112, 204, 207);
+  background-color: rgb(118, 97, 196);
+  
 }
