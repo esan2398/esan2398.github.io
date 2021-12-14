@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import '../style/Contact.css'
 class Contact extends Component {
     constructor(props) {
       super(props);
@@ -7,18 +8,18 @@ class Contact extends Component {
   
     render() {
       return(
-        <div className="App">
+        <div className="Form">
           <form onSubmit={this.handleSubmit}>
             <div class="contactForm">
-              <label> Name: </label>
+              <label style={{color: 'white'}}> Name: </label>
               <input type="text" value={this.state.name} onChange={this.onNameChange} />
             </div>
             <div class="contactForm">
-              <label> Email address: </label>
+              <label style={{color: 'white'}}> Email address: </label>
               <input type="email" value={this.state.email} onChange={this.onEmailChange} />
             </div>
             <div class="contactForm">
-              <label> Message: </label>
+              <label style={{color: 'white'}}> Message: </label>
               <textarea rows="5" value={this.state.message} onChange={this.onMessageChange} />
             </div>
             <button>Submit</button>

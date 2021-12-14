@@ -1,0 +1,8 @@
+h1.worksLinks{
+    display: flex;
+    justify-Content:center;
+    align-Items:center;
+    height: 25vh;
+    color:white;
+    background-color: rgb(173, 146, 255);
+}

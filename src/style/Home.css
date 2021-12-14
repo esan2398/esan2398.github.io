@@ -4,6 +4,19 @@
     align-Items:center;
     height: 25vh;
     margin-top: 100px;
+    animation: portrait-pulse 3s infinite ease-out;
+}
+
+@keyframes portrait-pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(.9);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 h1.title{
