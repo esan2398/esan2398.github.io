@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/esan2398.github.io/static/css/main.3725f21e.chunk.css",
+    "main.js": "/esan2398.github.io/static/js/main.c528dce9.chunk.js",
+    "main.js.map": "/esan2398.github.io/static/js/main.c528dce9.chunk.js.map",
+    "runtime-main.js": "/esan2398.github.io/static/js/runtime-main.b3012040.js",
+    "runtime-main.js.map": "/esan2398.github.io/static/js/runtime-main.b3012040.js.map",
+    "static/js/2.98aab4af.chunk.js": "/esan2398.github.io/static/js/2.98aab4af.chunk.js",
+    "static/js/2.98aab4af.chunk.js.map": "/esan2398.github.io/static/js/2.98aab4af.chunk.js.map",
+    "static/js/3.bbfc7325.chunk.js": "/esan2398.github.io/static/js/3.bbfc7325.chunk.js",
+    "static/js/3.bbfc7325.chunk.js.map": "/esan2398.github.io/static/js/3.bbfc7325.chunk.js.map",
+    "index.html": "/esan2398.github.io/index.html",
+    "static/css/main.3725f21e.chunk.css.map": "/esan2398.github.io/static/css/main.3725f21e.chunk.css.map",
+    "static/js/2.98aab4af.chunk.js.LICENSE.txt": "/esan2398.github.io/static/js/2.98aab4af.chunk.js.LICENSE.txt",
+    "static/media/Eddie.8a074fe7.jpg": "/esan2398.github.io/static/media/Eddie.8a074fe7.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b3012040.js",
+    "static/js/2.98aab4af.chunk.js",
+    "static/css/main.3725f21e.chunk.css",
+    "static/js/main.c528dce9.chunk.js"
+  ]
+}
